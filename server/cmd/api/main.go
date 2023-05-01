@@ -24,6 +24,7 @@ func main() {
 	var app application
 
 	// read from command line
+	// WILL DESTROY LATERS
 	flag.StringVar(&app.DSN, "dsn", "postgresql://postgres:j60hgNg2fJJRONghdxI0@containers-us-west-141.railway.app:8057/railway", "Postgres Connection")
 	flag.Parse()
 
